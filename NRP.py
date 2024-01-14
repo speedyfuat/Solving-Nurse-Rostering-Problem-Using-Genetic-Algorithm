@@ -125,5 +125,4 @@ best_solution = genetic_algorithm(population_size, chromosome_length, elite_coun
 
 # Print or use the best solution as needed
 print("Best Solution:", best_solution)
-print("Objective Function Value:", objective_function(best_solution))
 print("Fitness Value:", fitness_function(best_solution))
